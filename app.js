@@ -873,4 +873,4 @@ app.delete("/gallery/:id", async (req, res) => {
 // });
 
 //   console.log(admin);
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 4000);
